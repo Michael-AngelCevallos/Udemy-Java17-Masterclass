@@ -12,5 +12,15 @@
  * prints in cmd prompt --> Hello World
  *  */ 
 
- 
+//  Exit Jshell using ---> /exit
+
+/**  VARIABLES - VARIABLES ARE A WAY TO STORE INFO IN YOUR COMPUTER
+
+- 1. in java you must declare data type before variable name. Example:
+
+int myFirstNumber =5;
+*/
+
+int myFirstNumber =5;
+
 
