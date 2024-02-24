@@ -42,6 +42,7 @@ boolean isTheCustomerOverTwentyOne = true;
 
 
 System.out.println(myFalseBoolean);
+
 System.out.println(isTheCustomerOverTwentyOne);
         
     }
