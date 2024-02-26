@@ -1,3 +1,11 @@
+/* Logical 'AND'(&& or &) - use to represent a boolean condition. Both cases need to be eithier true or false in order for and to work.
+ * 
+ *  *** Also (&) represents 'AND' but on the bitwise level. wON'T BE USED AS MUCH AS LOGICAL COUNTERPARTS***
+ */
+
+
+
+
 public class logicalAndOperator {
 
     public static void main(String[] args) {
