@@ -17,7 +17,7 @@
 public class assignmentOperatorVsEqualsToOperator {
     public static void main(String[] args) {
         
-        // ASSIGNMENT OPERATOR(=) EXAMPLE. USES BOOLEAN 
+        // ASSIGNMENT OPERATOR(=) EXAMPLE. USES BOOLEAN. newValue is now used the same as true.
         {
             boolean newValue = true;
 
@@ -25,6 +25,8 @@ public class assignmentOperatorVsEqualsToOperator {
                 System.out.println("This is an error");
             }
 
+
+        //Equals-To Operator(==) - This test if values are equal to each other. Problem below assigns variable (newValue1) to the number 50. Then ask IF newValue1 is equal to 50 then do this.... 
             {
                 int newValue1 = 50;
                 if(newValue1 == 50){
