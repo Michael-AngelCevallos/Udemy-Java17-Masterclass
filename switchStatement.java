@@ -103,5 +103,23 @@ System.out.println("====Enhanced Switch Statement====");
                 return "4th";    
         }
         return "bad";
-    }
+
+
+
+// ==========ENHANCED SWITH EXPRESSION =======================
+        
+System.out.println("Enhanced Switch CASE")
+    
+    
+public static String getQuarter2(String month){
+    return switch(month){
+        case "JANUARY", "FEBRUARY", "MARCH" -> "1st";
+        case "APRIL", "MAY", "JUNE" -> "2ND";
+        case "OCTOBER", "NOVEMEBER", "DECEMBER" -> "4TH";
+        default -> "bad";
+    
+    };
+  
+    
+}
 }
