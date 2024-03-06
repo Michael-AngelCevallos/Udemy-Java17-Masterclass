@@ -51,18 +51,32 @@ public static void main(String[] args) {
    isOdd(3);
 }
 
+
+// 1. Write a method called isOdd with an int parameter and call it number. The method needs to return a boolean.
 public static boolean isOdd(int number) {
+
+    // 2. Check that number is > 0, if it is not return false.
     if (number <= 0) {
         return false;
     }
+
+    // 3. If number is odd return true, otherwise return false.
     return number % 2 != 0;
 }
 
+ //4. Write a second method called sumOdd that has 2 int parameters start and end, which represent a range of numbers.
 public static int sumOdd(int start, int end) {
+
+   
+
+    // 6.If those conditions are not satisfied return -1 from the method to indicate invalid input.
+
+    //7. The parameter end needs to be greater than or equal to start and both start and end parameters have to be greater than 0.
     if (start <= 0 || end <= 0 || end < start) {
         return -1;
     }
     
+     //5. The method should use a for loop to sum all odd numbers in that range including the end and return the sum.
     int sum = 0;
     for (int i = start; i <= end; i++) {
         if (isOdd(i)) {
