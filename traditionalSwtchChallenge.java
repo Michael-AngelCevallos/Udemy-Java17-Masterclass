@@ -37,7 +37,7 @@ public class traditionalSwtchChallenge {
             break;
             default:
             System.out.println("Letter " + charValue + " was not foiund in the switch statement");
-        }
+        }   
 
     }
 }
