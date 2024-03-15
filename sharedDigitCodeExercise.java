@@ -42,7 +42,7 @@ public class sharedDigitCodeExercise {
 
     public static boolean hasSharedDigit(int num1, int num2) {
         // Check if numbers are within the range
-        if (!isValidRange(num1) || !isValidRange(num2)) {
+        if (!(num1 >= 10 && num1 <= 99) || !(num2 >= 10 && num2 <= 99)) {
             return false;
         }
 
@@ -56,10 +56,6 @@ public class sharedDigitCodeExercise {
 
         // Check if any digit of num1 matches any digit of num2
         return digit1Num1 == digit1Num2 || digit1Num1 == tensDigitNum2 || tensDigitNum1 == digit1Num2 || tensDigitNum1 == tensDigitNum2;
-    }
-
-    public static boolean isValidRange(int num) {
-        return num >= 10 && num <= 99;
     }
 
 }
