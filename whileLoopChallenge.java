@@ -16,6 +16,8 @@ public class whileLoopChallenge {
 
         int number = 4;
         int finishNumber = 20;
+        int evenCount = 0;
+        int oddCount = 0;
 
 
         while(number <= finishNumber){
@@ -25,10 +27,17 @@ public class whileLoopChallenge {
 
             // This will then check to see if new number is odd number, if it is, will continue with code above an increment new nyumber by 1 then return result to terminal
             if(!isEvenNumber(number)){
+                oddCount++;
                 continue;
             }
                 System.out.println("Even number " + number);
+                evenCount++;
+                if(evenCount >= 5){
+                    break;
+                }
             }
+            System.out.println("Total odd numbers found = " + oddCount);
+            System.out.println("Total even numbers found = " + evenCount);
         }
     
     
