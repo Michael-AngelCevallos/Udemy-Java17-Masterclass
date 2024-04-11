@@ -87,7 +87,7 @@ int age = currentYear - Integer.parseInt(dateOfBirth);
  
 
  if(age < currentYear){
-        return "You are not born yet";
+        return "Sorry, you are not born yet";
     } else{
         return "So you are " + age + " years old."; 
     }
