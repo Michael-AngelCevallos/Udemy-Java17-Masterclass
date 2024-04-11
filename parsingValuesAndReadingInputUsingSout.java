@@ -34,7 +34,7 @@ public class parsingValuesAndReadingInputUsingSout {
        
 
     }
-Mike
+
     public static String getInputFromConsole(int currentYear){
         String name = System.console().readLine("Hi, Whats your name? ");
         System.out.println("Hi " + name + ", Thanks for taking the course!");
