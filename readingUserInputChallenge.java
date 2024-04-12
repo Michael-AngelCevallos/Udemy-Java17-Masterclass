@@ -20,9 +20,9 @@ public class readingUserInputChallenge {
         int counter = 1;
 
         // This sums up all the numbers
-        int sum = 0;
+        double sum = 0;
 
-        while(counter <= 5){
+        do{
             System.out.println("Enter number #" + counter + ":");
 
 
@@ -30,13 +30,15 @@ public class readingUserInputChallenge {
             String nextNumber = scanner.nextLine();
 
             try{
-                int number = Integer.parseInt(nextNumber);
+                // int number = Integer.parseInt(nextNumber);
+
+            double number = Double.parseDouble(nextNumber);    
             counter++;
             sum += number;
         } catch(NumberFormatException nfe ){
             System.out.println("Invalid number");
         }
-    }
+    } while(counter <= 5);
 
     System.out.println("The sum of the 5 numbers = " + sum);
 }
